@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catering Lilás</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Catering Lilás</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Delícias que encantam em cada evento</h2>
+    <p>Serviço de catering profissional para eventos especiais</p>
+  </section>
+
+  <section id="servicos">
+    <h3>Serviços</h3>
+    <ul>
+      <li>Casamentos</li>
+      <li>Eventos corporativos</li>
+      <li>Festas particulares</li>
+      <li>Buffets personalizados</li>
+    </ul>
+  </section>
+
+  <section id="sobre">
+    <h3>Sobre Nós</h3>
+    <p>Somos especializados em catering com foco na qualidade, apresentação e sabores inesquecíveis.</p>
+  </section>
+
+  <section id="galeria">
+    <h3>Galeria</h3>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/200x150?text=Entrada" alt="Entrada">
+      <img src="https://via.placeholder.com/200x150?text=Buffet" alt="Buffet">
+      <img src="https://via.placeholder.com/200x150?text=Doces" alt="Doces">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h3>Contato</h3>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Catering Lilás. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
